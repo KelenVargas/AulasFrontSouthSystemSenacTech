@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.cardFilme {
+    display: inline-block;
+    background-color: rgba(176, 119, 93, 0.631);
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(217, 101, 5);
+    margin: 10px;
+}
+
+.cardFilme>img {
+    display: inline-block;
+    width: 200px;
+}
+
+.cardFilme>.info-filme {
+    border: 2px solid black;
+    float: right;
+    margin-top: 140px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
